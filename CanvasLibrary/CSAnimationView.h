@@ -13,6 +13,7 @@
 
 @property (nonatomic) NSTimeInterval delay;
 @property (nonatomic) NSTimeInterval duration;
+@property (nonatomic) UIViewKeyframeAnimationOptions options;
 @property (nonatomic, copy) CSAnimationType type;
 @property (nonatomic) BOOL pauseAnimationOnAwake;  // If set, animation wont starts on awakeFromNib
 

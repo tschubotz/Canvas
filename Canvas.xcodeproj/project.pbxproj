@@ -31,6 +31,16 @@
 		96D778B0184B341D006E8951 /* CSSectionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D778AF184B341C006E8951 /* CSSectionHeaderCell.xib */; };
 		96D778B3184B3B54006E8951 /* CSComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D778B2184B3B54006E8951 /* CSComponentsViewController.m */; };
 		A787D0F7917445C4BAFF8C7A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A78DC2869B4F67B79E82F0 /* libPods.a */; };
+		F6B7FEE11AA4A9E600AFD063 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FECE1AA4A9E600AFD063 /* CSAnimation.m */; };
+		F6B7FEE21AA4A9E600AFD063 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FED01AA4A9E600AFD063 /* CSAnimationView.m */; };
+		F6B7FEE31AA4A9E600AFD063 /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FED21AA4A9E600AFD063 /* CSBlurView.m */; };
+		F6B7FEE41AA4A9E600AFD063 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FED41AA4A9E600AFD063 /* CSNavigationController.m */; };
+		F6B7FEE51AA4A9E600AFD063 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FED61AA4A9E600AFD063 /* UIButton+TCCustomFont.m */; };
+		F6B7FEE61AA4A9E600AFD063 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FED81AA4A9E600AFD063 /* UILabel+TCCustomFont.m */; };
+		F6B7FEE71AA4A9E600AFD063 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FEDA1AA4A9E600AFD063 /* UINavigationBar+TCCustomFont.m */; };
+		F6B7FEE81AA4A9E600AFD063 /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FEDC1AA4A9E600AFD063 /* UITextField+PlaceholderColor.m */; };
+		F6B7FEE91AA4A9E600AFD063 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FEDE1AA4A9E600AFD063 /* UITextField+TCCustomFont.m */; };
+		F6B7FEEA1AA4A9E600AFD063 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B7FEE01AA4A9E600AFD063 /* UITextView+TCCustomFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +90,27 @@
 		96D778AF184B341C006E8951 /* CSSectionHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSSectionHeaderCell.xib; sourceTree = "<group>"; };
 		96D778B1184B3B54006E8951 /* CSComponentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSComponentsViewController.h; sourceTree = "<group>"; };
 		96D778B2184B3B54006E8951 /* CSComponentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSComponentsViewController.m; sourceTree = "<group>"; };
+		F6B7FECC1AA4A9E600AFD063 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		F6B7FECD1AA4A9E600AFD063 /* CSAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAnimation.h; sourceTree = "<group>"; };
+		F6B7FECE1AA4A9E600AFD063 /* CSAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAnimation.m; sourceTree = "<group>"; };
+		F6B7FECF1AA4A9E600AFD063 /* CSAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAnimationView.h; sourceTree = "<group>"; };
+		F6B7FED01AA4A9E600AFD063 /* CSAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAnimationView.m; sourceTree = "<group>"; };
+		F6B7FED11AA4A9E600AFD063 /* CSBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBlurView.h; sourceTree = "<group>"; };
+		F6B7FED21AA4A9E600AFD063 /* CSBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBlurView.m; sourceTree = "<group>"; };
+		F6B7FED31AA4A9E600AFD063 /* CSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNavigationController.h; sourceTree = "<group>"; };
+		F6B7FED41AA4A9E600AFD063 /* CSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNavigationController.m; sourceTree = "<group>"; };
+		F6B7FED51AA4A9E600AFD063 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		F6B7FED61AA4A9E600AFD063 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		F6B7FED71AA4A9E600AFD063 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		F6B7FED81AA4A9E600AFD063 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		F6B7FED91AA4A9E600AFD063 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		F6B7FEDA1AA4A9E600AFD063 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		F6B7FEDB1AA4A9E600AFD063 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		F6B7FEDC1AA4A9E600AFD063 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		F6B7FEDD1AA4A9E600AFD063 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		F6B7FEDE1AA4A9E600AFD063 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		F6B7FEDF1AA4A9E600AFD063 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		F6B7FEE01AA4A9E600AFD063 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +163,7 @@
 		96CC1BED184AFC8D00506C40 = {
 			isa = PBXGroup;
 			children = (
+				F6B7FECB1AA4A9E600AFD063 /* CanvasLibrary */,
 				96CC1BFF184AFC8D00506C40 /* Canvas */,
 				96CC1C21184AFC8D00506C40 /* CanvasTests */,
 				96CC1BF8184AFC8D00506C40 /* Frameworks */,
@@ -219,6 +251,34 @@
 				1A363421184B101600969751 /* CSAnimationTableViewController.m */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F6B7FECB1AA4A9E600AFD063 /* CanvasLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F6B7FECC1AA4A9E600AFD063 /* Canvas.h */,
+				F6B7FECD1AA4A9E600AFD063 /* CSAnimation.h */,
+				F6B7FECE1AA4A9E600AFD063 /* CSAnimation.m */,
+				F6B7FECF1AA4A9E600AFD063 /* CSAnimationView.h */,
+				F6B7FED01AA4A9E600AFD063 /* CSAnimationView.m */,
+				F6B7FED11AA4A9E600AFD063 /* CSBlurView.h */,
+				F6B7FED21AA4A9E600AFD063 /* CSBlurView.m */,
+				F6B7FED31AA4A9E600AFD063 /* CSNavigationController.h */,
+				F6B7FED41AA4A9E600AFD063 /* CSNavigationController.m */,
+				F6B7FED51AA4A9E600AFD063 /* UIButton+TCCustomFont.h */,
+				F6B7FED61AA4A9E600AFD063 /* UIButton+TCCustomFont.m */,
+				F6B7FED71AA4A9E600AFD063 /* UILabel+TCCustomFont.h */,
+				F6B7FED81AA4A9E600AFD063 /* UILabel+TCCustomFont.m */,
+				F6B7FED91AA4A9E600AFD063 /* UINavigationBar+TCCustomFont.h */,
+				F6B7FEDA1AA4A9E600AFD063 /* UINavigationBar+TCCustomFont.m */,
+				F6B7FEDB1AA4A9E600AFD063 /* UITextField+PlaceholderColor.h */,
+				F6B7FEDC1AA4A9E600AFD063 /* UITextField+PlaceholderColor.m */,
+				F6B7FEDD1AA4A9E600AFD063 /* UITextField+TCCustomFont.h */,
+				F6B7FEDE1AA4A9E600AFD063 /* UITextField+TCCustomFont.m */,
+				F6B7FEDF1AA4A9E600AFD063 /* UITextView+TCCustomFont.h */,
+				F6B7FEE01AA4A9E600AFD063 /* UITextView+TCCustomFont.m */,
+			);
+			path = CanvasLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,13 +419,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A363422184B101600969751 /* CSAnimationTableViewController.m in Sources */,
+				F6B7FEE31AA4A9E600AFD063 /* CSBlurView.m in Sources */,
+				F6B7FEEA1AA4A9E600AFD063 /* UITextView+TCCustomFont.m in Sources */,
+				F6B7FEE21AA4A9E600AFD063 /* CSAnimationView.m in Sources */,
+				F6B7FEE91AA4A9E600AFD063 /* UITextField+TCCustomFont.m in Sources */,
+				F6B7FEE61AA4A9E600AFD063 /* UILabel+TCCustomFont.m in Sources */,
 				1A40F73E1851A7C000483898 /* CanvasInfo.m in Sources */,
+				F6B7FEE51AA4A9E600AFD063 /* UIButton+TCCustomFont.m in Sources */,
+				F6B7FEE11AA4A9E600AFD063 /* CSAnimation.m in Sources */,
+				F6B7FEE41AA4A9E600AFD063 /* CSNavigationController.m in Sources */,
 				1A40F73B1851A74D00483898 /* Canvas.xcdatamodeld in Sources */,
 				96CC1C13184AFC8D00506C40 /* CSUsageViewController.m in Sources */,
 				96CC1C0A184AFC8D00506C40 /* AppDelegate.m in Sources */,
 				96CC1C06184AFC8D00506C40 /* main.m in Sources */,
+				F6B7FEE71AA4A9E600AFD063 /* UINavigationBar+TCCustomFont.m in Sources */,
 				960E1D67184C9E7E00F297E9 /* CSSectionHeaderCell.m in Sources */,
 				96D778B3184B3B54006E8951 /* CSComponentsViewController.m in Sources */,
+				F6B7FEE81AA4A9E600AFD063 /* UITextField+PlaceholderColor.m in Sources */,
 				1A40F7361851A2EA00483898 /* CanvasIncrementalStore.m in Sources */,
 				1A977804184CAB4A009577DA /* CSTabBarViewController.m in Sources */,
 			);

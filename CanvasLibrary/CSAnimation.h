@@ -47,8 +47,9 @@ extern NSString *const CSAnimationExceptionMethodNotImplemented;
 
 @property (nonatomic) NSTimeInterval duration;
 @property (nonatomic) NSTimeInterval delay;
+@property (nonatomic) UIViewKeyframeAnimationOptions options;
 
-+ (void)performAnimationOnView:(UIView *)view duration:(NSTimeInterval)duration delay:(NSTimeInterval)delay;
++ (void)performAnimationOnView:(UIView *)view duration:(NSTimeInterval)duration delay:(NSTimeInterval)delay options:(UIViewKeyframeAnimationOptions)options;
 
 @end
 

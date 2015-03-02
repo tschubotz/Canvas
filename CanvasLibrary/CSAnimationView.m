@@ -17,10 +17,10 @@
 }
 
 - (void)startCanvasAnimation {
-    
+
     Class <CSAnimation> class = [CSAnimation classForAnimationType:self.type];
-    
-    [class performAnimationOnView:self duration:self.duration delay:self.delay];
+
+    [class performAnimationOnView:self duration:self.duration delay:self.delay options:self.options];
 
     [super startCanvasAnimation];
 }
