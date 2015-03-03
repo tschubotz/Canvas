@@ -546,7 +546,7 @@ static NSMutableDictionary *_animationClasses;
     view.alpha = 0;
     [UIView animateKeyframesWithDuration:duration delay:delay options:options animations:^{
         // End
-        view.alpha = 0.4;
+        view.alpha = 0.9;
     } completion:^(BOOL finished) { }];
 }
 @end
@@ -559,7 +559,7 @@ static NSMutableDictionary *_animationClasses;
 }
 + (void)performAnimationOnView:(UIView *)view duration:(NSTimeInterval)duration delay:(NSTimeInterval)delay options:(UIViewKeyframeAnimationOptions)options {
     // Start
-    view.alpha = 0.4;
+    view.alpha = 0.9;
     [UIView animateKeyframesWithDuration:duration delay:delay options:options animations:^{
         // End
         view.alpha = 0;
