@@ -390,15 +390,15 @@ static NSMutableDictionary *_animationClasses;
     view.transform = CGAffineTransformMakeScale(1, 1);
     [UIView animateKeyframesWithDuration:duration/4 delay:delay options:options animations:^{
         // End
-        view.transform = CGAffineTransformMakeScale(1, 1.2);
+        view.transform = CGAffineTransformMakeScale(1, 1.1);
     } completion:^(BOOL finished) {
         [UIView animateKeyframesWithDuration:duration/4 delay:0 options:options animations:^{
             // End
-            view.transform = CGAffineTransformMakeScale(1.2, 0.9);
+            view.transform = CGAffineTransformMakeScale(1.1, 0.95);
         } completion:^(BOOL finished) {
             [UIView animateKeyframesWithDuration:duration/4 delay:0 options:options animations:^{
                 // End
-                view.transform = CGAffineTransformMakeScale(0.9, 0.9);
+                view.transform = CGAffineTransformMakeScale(0.95, 0.95);
             } completion:^(BOOL finished) {
                 [UIView animateKeyframesWithDuration:duration/4 delay:0 options:options animations:^{
                     // End
